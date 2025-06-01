@@ -5,16 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CESOLAR | Energía Solar a tu Alcance</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <script defer src="/cesolar-landing/style.css"></script>
+  <script defer src="cesolar-landing/style.css"></script>
+
+<!-- tipografia -->
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
 
 </head>
 
 
-<body class="bg-white text-gray-800 font-sans">
+<body class="bg-white text-gray-800" style="font-family: 'Poppins', sans-serif;">
+  
   <!-- Encabezado -->
   <header class="bg-yellow-400 text-gray-900 p-4 shadow-md">
     <div class="container mx-auto flex justify-between items-center">
-      <img src="/assets/logo sp.png" alt="CESOLAR Logo" class="h-16 object-contain">
+      <img src="assets/logo sp.png" alt="CESOLAR Logo" class="h-16 object-contain">
       <nav class="space-x-4">
         <a href="#servicios" class="hover:underline font-semibold">Servicios</a>
         <a href="#contacto" class="hover:underline font-semibold">Contacto</a>
@@ -29,10 +34,11 @@
     <img src="/assets/mifoto.jpg" alt="Ing. Luis Sosa Edgar J."
         class="w-40 h-40 mx-auto rounded-full shadow-lg mb-6 border-1 border-white object-cover animate-foto">
 
-    <!-- Encabezado -->
-    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 drop-shadow-sm">
-      Energía solar a tu alcance
-    </h2>
+        <!-- Encabezado de sección -->
+      <h2 class="text-4xl font-bold text-gray-900" style="font-family: 'Exo 2', sans-serif;">
+        Energía solar a tu alcance
+      </h2>
+
 
     <p class="text-lg md:text-xl text-gray-800 mb-2">
       ¿Tienes dudas? Estoy para ayudarte.
@@ -57,7 +63,9 @@
 
   <!-- Servicios -->
   <section id="servicios" class="py-16 container mx-auto">
-    <h3 class="text-3xl font-bold text-center mb-10">Nuestros servicios</h3>
+      <h3 class="text-3xl font-bold text-center mb-10" style="font-family: 'Playfair Display', serif;">
+        Nuestros servicios
+      </h3>
     <div class="grid md:grid-cols-3 gap-8">
       <div class="bg-white p-6 rounded-xl shadow-md text-center">
         <h4 class="text-xl font-bold mb-2">Mantenimiento y soporte</h4>
@@ -155,7 +163,7 @@
 }
 
 .py-24 {
-    padding-top: 3rem;
+    padding-top: rem;
     padding-bottom: 7rem;
 }
 
