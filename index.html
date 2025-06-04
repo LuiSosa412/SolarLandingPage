@@ -85,6 +85,39 @@
   </section>
 
 
+  <!-- Sección de Marcas -->
+<section class="py-16 bg-white">
+  <h3 class="text-2xl font-bold text-center mb-8 text-gray-800">Marcas que manejamos</h3>
+  
+  <div class="overflow-hidden relative w-full">
+    <div class="flex animate-slide-track gap-12">
+      <!-- Repetir logos para lograr efecto infinito -->
+      <img src="assets/Canadian-Solar-logo.png" alt="Canadian Solar" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Trina_Solar_logo.svg.png" alt="Trina Solar" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/JA_Solar_Logo.svg.png" alt="JA Solar" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Huawei.png" alt="Huawei" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Growatt-logo.png" alt="Growatt" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Fronius-logo.png" alt="Fronius" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      
+      <!-- Repetidos para efecto continuo -->
+      <img src="assets/Canadian-Solar-logo.png" alt="Canadian Solar" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Trina_Solar_logo.svg.png" alt="Trina Solar" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/JA_Solar_Logo.svg.png" alt="JA Solar" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Huawei.png" alt="Huawei" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Growatt-logo.png" alt="Growatt" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Fronius-logo.png" alt="Fronius" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+
+      <img src="assets/Canadian-Solar-logo.png" alt="Canadian Solar" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Trina_Solar_logo.svg.png" alt="Trina Solar" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/JA_Solar_Logo.svg.png" alt="JA Solar" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Huawei.png" alt="Huawei" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Growatt-logo.png" alt="Growatt" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+      <img src="assets/Fronius-logo.png" alt="Fronius" class="h-16 grayscale hover:grayscale-0 transition duration-300">
+    </div>
+  </div>
+</section>
+
+
 
   <section class="py-20 bg-gray-100">
   <div class="max-w-4xl mx-auto px-4">
@@ -100,7 +133,9 @@
         <img src="assets/instalacion_5.jpeg" alt="Instalación industrial" class="w-full flex-shrink-0 object-cover h-64 md:h-96">
         <img src="assets/instalacion_6.jpeg" alt="Instalación industrial" class="w-full flex-shrink-0 object-cover h-64 md:h-96">
         <img src="assets/instalacion_7.jpeg" alt="Instalación industrial" class="w-full flex-shrink-0 object-cover h-64 md:h-96">
-
+        <img src="assets/instalacion_8.jpeg" alt="Instalación industrial" class="w-full flex-shrink-0 object-cover h-64 md:h-96">
+        <img src="assets/instalacion_9.jpeg" alt="Instalación industrial" class="w-full flex-shrink-0 object-cover h-64 md:h-96">
+        <img src="assets/instalacion_10.jpeg" alt="Instalación industrial" class="w-full flex-shrink-0 object-cover h-64 md:h-96">
       </div>
 
       <!-- Botones de navegación -->
@@ -119,8 +154,8 @@
     <div class="container mx-auto text-center">
       <h3 class="text-2xl font-bold mb-4">¿Listo para empezar?</h3>
       <p class="mb-4">Escríbenos para una cotización sin compromiso.</p>
-      <a href="mailto:cesolar@email.com" class="text-yellow-500 underline">cesolar@email.com</a><br>
-      <span class="text-gray-600">Tel: 123 456 7890</span>
+      <a href="mailto:cesolar@email.com" class="text-yellow-500 underline">luissosaedgar@gmail.com</a><br>
+      <span class="text-gray-600">Tel: 951 579 6262</span>
     </div>
   </section>
 
@@ -130,8 +165,8 @@
     <div class="container mx-auto text-center">
       <p>Síguenos en redes:</p>
       <div class="flex justify-center space-x-4 mt-2">
-        <a href="#" class="hover:underline">Facebook</a>
-        <a href="#" class="hover:underline">Instagram</a>
+        <a href="https://www.facebook.com/share/19FJmEGhPk/" class="hover:underline">Facebook</a>
+        <a href="https://www.instagram.com/solar.panel.company?igsh=MTJ3MDJhYWh6NzJuMA==" class="hover:underline">Instagram</a>
         <a href="#" class="hover:underline">TikTok</a>
       </div>
       <p class="mt-4 text-sm">&copy; 2025 SP_COMPANY. Todos los derechos reservados.</p>
@@ -163,7 +198,7 @@
 }
 
 .py-24 {
-    padding-top: rem;
+    padding-top: 8rem;
     padding-bottom: 7rem;
 }
 
@@ -191,6 +226,25 @@
     padding-top: 0rem;
     padding-bottom: 3rem;
 }
+
+
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide-track {
+  display: flex;
+  width: max-content;
+  animation: slide 25s linear infinite;
+}
+
 
 </style>
 
